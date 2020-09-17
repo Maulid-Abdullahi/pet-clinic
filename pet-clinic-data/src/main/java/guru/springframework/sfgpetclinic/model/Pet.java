@@ -1,18 +1,18 @@
-package com.example.sfgpetclinic.model;
+package guru.springframework.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
 public class Pet {
 
-     private petType petType;
+     private guru.springframework.sfgpetclinic.model.petType petType;
      private Owner owner;
      private LocalDate birthDate;
 
-    public com.example.sfgpetclinic.model.petType getPetType() {
+    public guru.springframework.sfgpetclinic.model.petType getPetType() {
         return petType;
     }
 
-    public void setPetType(com.example.sfgpetclinic.model.petType petType) {
+    public void setPetType(guru.springframework.sfgpetclinic.model.petType petType) {
         this.petType = petType;
     }
 
