@@ -97,9 +97,9 @@
 		</plugins>
 	</build>
 
-	<scm>
-		<developerConnection>scm:git:git@github.com:springframeworkguru/sfg-pet-clinic.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
+<!--	<scm>-->
+<!--&lt;!&ndash;		<developerConnection>scm:git:git@github.com:springframeworkguru/sfg-pet-clinic.git</developerConnection>&ndash;&gt;-->
+<!--&lt;!&ndash;		<tag>HEAD</tag>&ndash;&gt;-->
+<!--	</scm>-->
 
 </project>
