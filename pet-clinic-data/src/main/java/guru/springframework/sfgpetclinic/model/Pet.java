@@ -4,15 +4,15 @@ import java.time.LocalDate;
 
 public class Pet extends BaseEntity{
 
-     private guru.springframework.sfgpetclinic.model.petType petType;
+     private PetType petType;
      private Owner owner;
      private LocalDate birthDate;
 
-    public guru.springframework.sfgpetclinic.model.petType getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(guru.springframework.sfgpetclinic.model.petType petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
